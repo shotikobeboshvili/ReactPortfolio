@@ -37,6 +37,7 @@ export default function contact() {
         />
         <textarea
           name="message"
+          rows={6}
           placeholder="Your Message"
           className="border-2 border-gray-300 p-4 rounded-lg"
         ></textarea>
