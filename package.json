@@ -3,17 +3,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "react-router build",
     "dev": "react-router dev",
-    "start": "react-scripts start",
-    "typecheck": "react-router typegen && tsc",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "install": "npm install --legacy-peer-deps"
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@react-router/node": "^7.4.1",
-    "@react-router/serve": "^7.4.1",
+    "@react-router/node": "^7.5.0",
+    "@react-router/serve": "^7.5.0",
     "isbot": "^5.1.17",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
