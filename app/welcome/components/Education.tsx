@@ -1,6 +1,6 @@
 import Certificate from"./assets/certificate.png";
 import { motion } from 'framer-motion';
-import Certificate2 from "./assets/certificate2.jpg"
+import Certificate2 from "./assets/certificate2.jpg";
 
 export default function education() {
   return (
