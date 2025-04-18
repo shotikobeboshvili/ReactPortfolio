@@ -104,7 +104,7 @@ export default function projects() {
                     I already start working on this website,creating using React.
                   </p>
                   <a
-                    href="#"
+                    href="https://phone-store-website.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 inline-block text-center text-[#FF6F61] font-semibold hover:text-[#ff0a0a] transition-all duration-200"
